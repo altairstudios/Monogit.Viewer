@@ -1,0 +1,6 @@
+Name: monogit
+Description: monogit
+Version: 0.1
+
+Requires: 
+Libs: -r:@expanded_libdir@/@PACKAGE@/monogit.dll

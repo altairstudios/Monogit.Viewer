@@ -1,0 +1,32 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Monogit Viewer</title>
+		<link href="<%=Monogit.Viewer.MvcApplication.path%>/Content/css/style.css" class="theme" rel="stylesheet" media="all" />
+		<link rel="icon" type="image/png" href="<%=Monogit.Viewer.MvcApplication.path%>/Content/images/favicon.png" />
+	</head>
+	<body>
+		<div class="nav">
+			<a href=".">Index</a>
+		</div>
+		<div id="page_body">
+			<div class="pagenav">
+				<a href="#">Summary</a>
+				|
+				<a href="#">Shortlog</a>
+				|
+				<a href="#">Commit</a>
+				|
+				<a href="#">Commitdiff</a>
+				|
+				<a href="#">Tree</a>
+			</div>
+			<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+			<div class="ad">
+				<a href="https://github.com/altairstudios/monogit" title="Fork us in github">Monogit Viewer</a>
+			</div>
+		</div>
+	</body>
+</html>
