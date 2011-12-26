@@ -62,6 +62,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Models\Project.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -71,6 +72,7 @@
     <Content Include="Views\Shared\Viewer.master" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Views\Projects\Add.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />

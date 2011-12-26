@@ -23,7 +23,7 @@
 				|
 				<a href="#">Tree</a>
 			</div>
-			<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+			<asp:ContentPlaceHolder ID="mainHolder" runat="server" />
 			<div class="ad">
 				<a href="https://github.com/altairstudios/monogit" title="Fork us in github">Monogit Viewer</a>
 			</div>

@@ -7,7 +7,7 @@ using System.Web.Mvc.Ajax;
 namespace Monogit.Viewer.Controllers {
 	[HandleError]
 	public class HomeController : Controller {
-		public ActionResult Index () {
+		public ActionResult Index() {
 			return RedirectToAction("Index", "Projects");
 		}
 	}

@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Monogit.WebViewer.Models;
 
 
 namespace Monogit.Viewer {
@@ -9,6 +11,7 @@ namespace Monogit.Viewer {
 		
 		public static string path = "";
 		public static string diskPath = "";
+		public static List<Project> projects = new List<Project>();
 		
 		public static void RegisterRoutes(RouteCollection routes) {
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");

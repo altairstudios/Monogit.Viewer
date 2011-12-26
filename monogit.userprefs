@@ -2,10 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Views/Projects/Index.aspx">
     <Files>
-      <File FileName="Controllers/HomeController.cs" Line="12" Column="4" />
-      <File FileName="Global.asax.cs" Line="7" Column="25" />
-      <File FileName="Controllers/ProjectsController.cs" Line="13" Column="3" />
-      <File FileName="Views/Projects/Index.aspx" Line="1" Column="61" />
+      <File FileName="Controllers/HomeController.cs" Line="11" Column="27" />
+      <File FileName="Global.asax.cs" Line="14" Column="21" />
+      <File FileName="Controllers/ProjectsController.cs" Line="32" Column="29" />
+      <File FileName="Views/Projects/Index.aspx" Line="18" Column="11" />
+      <File FileName="Global.asax" Line="1" Column="41" />
+      <File FileName="Views/Shared/Viewer.master" Line="7" Column="54" />
+      <File FileName="Views/Projects/Add.aspx" Line="15" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
