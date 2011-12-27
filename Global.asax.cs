@@ -6,7 +6,7 @@ using System.Web.Routing;
 using Monogit.WebViewer.Models;
 
 
-namespace Monogit.Viewer {
+namespace Monogit.Viewer.Web {
 	public class MvcApplication : System.Web.HttpApplication {
 		
 		public static string path = "";

@@ -7,10 +7,10 @@
 				<th>Name</th>
 				<th>Path</th>
 			</tr>
-			<% for(int i = 0; i < Monogit.Viewer.MvcApplication.projects.Count; i++) { %>
+			<% for(int i = 0; i < Monogit.Viewer.MvcApplication.Web.projects.Count; i++) { %>
 			<tr>
-				<td><a href="<%=Monogit.Viewer.MvcApplication.path%>/Projects/Viewer/<%=Monogit.Viewer.MvcApplication.projects[i].Name%>"><%=Monogit.Viewer.MvcApplication.projects[i].Name%></a></td>
-				<td><%=Monogit.Viewer.MvcApplication.projects[i].Path%></td>
+				<td><a href="<%=Monogit.Viewer.MvcApplication.Web.path%>/Projects/Viewer/<%=Monogit.Viewer.MvcApplication.Web.projects[i].Name%>"><%=Monogit.Viewer.MvcApplication.Web.projects[i].Name%></a></td>
+				<td><%=Monogit.Viewer.MvcApplication.Web.projects[i].Path%></td>
 			</tr>
 			<% } %>
 		</thead>

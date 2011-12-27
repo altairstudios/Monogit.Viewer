@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ProjectsController.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="14" Column="2" />
+      <File FileName="Global.asax.cs" Line="4" Column="22" />
+      <File FileName="Controllers/ProjectsController.cs" Line="9" Column="15" />
+      <File FileName="Views/Projects/Index.aspx" Line="12" Column="171" />
+      <File FileName="Global.asax" Line="1" Column="45" />
+      <File FileName="Views/Shared/Viewer.master" Line="28" Column="61" />
+      <File FileName="Views/Projects/Add.aspx" Line="15" Column="7" />
+      <File FileName="Web.config" Line="1" Column="1" />
+      <File FileName="README" Line="1" Column="1" />
+      <File FileName="monogit.userprefs" Line="1" Column="1" />
+      <File FileName="Models/Project.cs" Line="4" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="juan" Email="juan@altairstudios.es" Copyright="Altair Studios" Company="Altair Studios" Trademark="" />
+</Properties>

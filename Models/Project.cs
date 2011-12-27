@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Monogit.WebViewer.Models {
+namespace Monogit.WebViewer.Web.Models {
 	public class Project {
 		protected string name;
 		protected string path;

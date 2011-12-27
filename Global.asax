@@ -1,1 +1,1 @@
-<%@ Application Inherits="Monogit.Viewer.MvcApplication" %>
+<%@ Application Inherits="Monogit.Viewer.Web.MvcApplication" %>

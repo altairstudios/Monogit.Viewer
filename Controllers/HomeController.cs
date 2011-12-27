@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
 
 
-namespace Monogit.Viewer.Controllers {
+namespace Monogit.Viewer.Web.Controllers {
 	[HandleError]
 	public class HomeController : Controller {
 		public ActionResult Index() {
